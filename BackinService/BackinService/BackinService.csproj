@@ -3,11 +3,17 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
+	  <RootNamespace>NML.BackinService</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+
+	  <ItemGroup>
+		  <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
+		    
+	  </ItemGroup>
   </ItemGroup>
 
 </Project>
